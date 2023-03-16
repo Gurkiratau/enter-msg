@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "sans-seri";
+}
+
+body,
+html {
+  background-color: rgb(128, 48, 48);
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+form input {
+  height: 70px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 600px;
+  background-color: aliceblue;
+  padding: 50px 110px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+h5 {
+  background-color: rgb(161, 139, 139);
+  font-size: larger;
+  width: 100%;
+  padding: 10px;
+}
+
+.feedback {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.Message-content {
+  color: rgb(179, 132, 71);
+}
